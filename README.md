@@ -26,8 +26,13 @@ Before starting, please ensure you have the Live Server extension on VScode, or 
 
 1. Clone this repository and navigate to its folder in your terminal/prompt
 2. Run `cd back-end`
-3. Run `npm install`
-4. Run `npm run`
+3. Create a file called .env and insert the following code
+   ```
+   TOKEN_KEY = "StackUpAuthenticationProject123!";
+   PORT = 4001;
+   ```
+4. Run `npm install`
+5. Run `npm run`
 
 ### Frontend Setup
 
